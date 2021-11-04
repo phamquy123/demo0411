@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div id="app">
+             <div class="head1">
+                    <div class="head1-a">Free shipping with order over $65</div>
+                    <div class="head1-b">
+                        <a id="myBtn">Đăng nhập</a>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+                        
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close">&times;</span>
+                             <div class="login-one">
+                                     <div class="login">
+                                            <div class="login-a">ĐĂNG NHẬP</div>
+                                            <label class="login-b"><b>Tên tài khoản hoặc địa chỉ email *</b></label>
+                                            <input class="login-c" name="first" type="text"></p>
+                                            <label class="login-b"><b>Mật khẩu *</b></label>
+                                            <input class="login-c" name="first" type="text"></p>
+                                            <label class="container"> Ghi nhớ mật khẩu
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <button class="login-button">ĐĂNG NHẬP</button>
+                                            <div class="login-p">Quên mật khẩu?</div>
+                                     </div>
+                                     <div class="login">
+                                            <div class="login-a">ĐĂNG KÝ</div>
+                                            <label class="login-b"><b>Địa chỉ email *</b></label>
+                                            <input class="login-c" name="first" type="text"></p>
+                                            <label class="login-b"><b>Mật khẩu *</b></label>
+                                            <input class="login-c" name="first" type="text"></p>
+                                            <button class="login-button">ĐĂNG KÝ</button>
+
+                                     </div>
+                             </div>
+                            
+                          </div>
+                        
+                        </div>
+                    </div>
+             </div>
+             <div class="head2">
+
+                     <div class="head2-a"><img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/nguoi-mau-01.png" alt=""></div>
+                     <div class="head2-b">
+                             <span class="bar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                             <div id="mySidenav" class="sidenav">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <div class="timkiem"><input type="text" placeholder="tìm kiếm"></div>
+                                <a href="#">GIỚI THIỆU</a>
+                                <a href="#">LIÊN HỆ</a>
+                                <a href="#">THƯƠNG HIỆU</a>
+                                <a href="#">TIN TỨC & SỰ KIỆN</a>
+                                <a href="#">BỘ SƯU TẬP</a>
+                                <a href="#">STORE</a>
+                                <a href="#">ĐĂNG NHẬP</a>
+                              </div>
+                             <div class="head2-b-img"><img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2021/03/logo-1.jpg" alt=""  style="height: 50px; width: 60px;"></div>
+                             <div class="head2-b-p">
+                                     <div class="head2-li">Giới thiệu</div>
+                                     <div class="head2-li">Liên hệ</div>
+                                     <div class="head2-li">Thương hiệu</div>
+                                     <div class="head2-li">Tin tức & Sự kiện</div>
+                                     <div class="head2-li">Bộ sưu tập</div>
+                                     <div class="dropdown">
+                                         <div class="dropbtn">Store<i class="fas fa-chevron-down"></i></div>
+                                         <div class="dropdown-content">
+                                              <a href="#">Quần áo</a>
+                                              <a href="#">Giày dép</a>
+                                              <a href="#">Phụ kiện & Trang sức</a>
+                                              <a href="#">Túi xách & Balo</a>
+                                      </div>
+                                    </div>
+                             </div>
+                             <div class="head2-logo">
+                                     <div class="dropdown">
+                                           <div class="dropbtn"><i class="fas fa-shopping-bag"></i></div>
+                                           <div class="dropdown-content1">
+                                            <a href="#">Chưa có sản phẩm trong giỏ hàng</a>
+                                           </div>
+                                      </div>
+                                      <div class="dropdown">
+                                            <div class="dropbtn1"><i class="fas fa-search"></i></div>
+                                            <div class="dropdown-content2">
+                                                   <div><input type="text" class="input-down" placeholder="tim kiem"></div>
+                                                   <div class="search"><i class="fas fa-search"></i></div>
+                                            </div>
+                                   </div>
+                                    
+                             </div>
+                     </div>
+                     <div class="head2-c">
+                            <div class="head2-para1">2019 New Arrivals</div>
+                            <div class="head2-para2">Sale off up <br> to 70%</div>
+                            <div class="head2-para3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+                            <div class="head2-para4"><button>Mua ngay</button></div>
+
+                     </div>
+             </div>
+             <div class="content-a">
+                      <div class="con-a-img" ><img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/icon-pleats-kora-grey-02.png" alt=""></div>
+                      <div class="con-a-content" >
+                            <div class="con-a">2019 New Arrivals</div>
+                            <div class="con-a1">Pleats kora store</div>
+                            <div class="con-a2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut</div>
+                            <div class="con-a3">laoreet dolore magna aliquam erat volutpat.</div>
+                            <div class="con-a4"><div class="con-a4a">Về chúng tôi </div><div><i class="fas fa-arrow-right"></i></div></div>
+                      </div>
+             </div>
+             <div class="content-b">
+                     <div class="con-b">Sản phẩm mới</div>
+                     <div class="con-b1">
+                            <div class="con-b1-p a"><a href="">TẤT CẢ</a></div>
+                            <div class="con-b1-p"><a href=""> QUẦN ÁO</a></div>
+                            <div class="con-b1-p"><a href=""> GIÀY DÉP</a></div>
+                            <div class="con-b1-p"> <a href="">PHỤ KIỆN & TRANG SỨC</a></div>
+                            <div class="con-b1-p"><a href="">TÚI XÁCH & BALO</a></div>
+                     </div>
+                     <div class="con-b2">
+                              <div class="con-b2-item">
+                                         <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/3.jpg" alt="">
+                                        <div class="con-b2-p"><a href="">Đầm suông dự tiệc cao cấp</a></div>
+                                        <div class="con-b2-p1">  $35 – $3,550</div>
+                                        <div class="maru">
+                                                <span class="color pink"></span>
+                                                <span class="color violet"></span>
+                                                <span class="color green"></span>
+                                        </div>
+                              </div>
+                              <div class="con-b2-item">
+                                         <div class="con-b2-img">
+                                                 <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/8.jpg" alt="">
+                                                 <p class="sold">HẾT HÀNG</p>
+                                         </div>
+                                        <div class="con-b2-p"><a href="">Áo quần bộ cao cấp năng động</a></div>
+                                        <div class="con-b2-p1">$35 – $36</div>
+                                        <div class="maru">
+                                                <span class="color black"></span>
+                                                <span class="color yellow"></span>
+
+                                        </div>
+                              </div>
+                              <div class="con-b2-item">
+                                      <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/3-2.jpg" alt="">
+                                      <div class="con-b2-p"><a href="">Bộ áo thun và áo khoát kết hợp váy</a>  </div>
+                                      <div class="con-b2-p1"> $39</div>
+                                </div>
+                              <div class="con-b2-item">
+                                      <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/2.jpg" alt="">
+                                      <div class="con-b2-p"><a href="">Đầm suông cách điệu sang trọng</a></div>
+                                      <div class="con-b2-p1">$36</div>
+                                </div>
+                     </div>
+                     <div class="con-b2">
+                            <div class="con-b2-item">
+                                  <div class="con-b2-img">
+                                        <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/13.jpg" alt="">
+                                        <p class="sold">HẾT HÀNG</p>
+                                   </div>
+                                   <div class="con-b2-p"><a href="">Trang phục năng động cho mùa hè</a></div>
+                                   <div class="con-b2-p1">$35 – $36</div>
+                                   <div class="maru">
+                                       <span class="color black"></span>
+                                       <span class="color yellow"></span>
+                                  </div>
+                             </div>
+                             <div class="con-b2-item">
+                                      <div class="con-b2-img">
+                                             <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/13.jpg" alt="">
+                                             <p class="sold">HẾT HÀNG</p>
+                                       </div>
+                                      <div class="con-b2-p"><a href="">Trang phục năng động cho mùa hè</a></div>
+                                      <div class="con-b2-p1">$35 – $36</div>
+                                      <div class="maru">
+                                               <span class="color yellow"></span>
+                                               <span class="color green"></span>
+                                      </div>
+                              </div>
+                              <div class="con-b2-item">
+                                      <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/3-2.jpg" alt="">
+                                       <div class="con-b2-p"><a href="">Bộ áo thun và áo khoát kết hợp váy</a></div>
+                                      <div class="con-b2-p1">$39</div>
+                              </div>
+                              <div class="con-b2-item">
+                                        <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/2.jpg" alt="">
+                                        <div class="con-b2-p"><a href="">Đầm suông cách điệu sang trọng</a></div>
+                                        <div class="con-b2-p1">$36</div>
+                              </div>
+                     </div>
+                     <div class="con-b4"><div class="con-b4-p"><a href="">Xem thêm sản phẩm</a> </div><div><a href=""><i class="fas fa-arrow-right"></i></a></div></div>
+             </div>
+             <div class="content-c">
+                    <div class="con-c">
+                             <div class="con-c-icon"><i class="fas fa-draw-polygon"></i></div>
+                             <div class="con-c-p">Miễn phí giao hàng</div>
+                             <div class="con-c-p1">Lorem ipsum dolor sit amet, consectetuer</div>
+                             <div class="con-c-p1">adipiscing elit, sed diam ….</div>
+                             <div class="con-c-right"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="con-c">
+                             <div class="con-c-icon"><i class="fas fa-shopping-bag"></i></div>
+                             <div class="con-c-p">Đổi trả trong 30 ngày</div>
+                             <div class="con-c-p1">Lorem ipsum dolor sit amet, consectetuer</div>
+                             <div class="con-c-p1">adipiscing elit, sed diam ….</div>
+                             <div class="con-c-right"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="con-c">
+                              <div class="con-c-icon"><i class="far fa-credit-card"></i></div>
+                              <div class="con-c-p">Thanh toán an toàn</div>
+                              <div class="con-c-p1">Lorem ipsum dolor sit amet, consectetuer</div>
+                              <div class="con-c-p1">adipiscing elit, sed diam ….</div>
+                              <div class="con-c-right"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+
+             </div>
+             <div class="content-d">
+                     <div class="con-d">
+                             <img src="http://pleatskora.vn/wp-content/uploads/2020/08/IMG_9794-1024x683.jpg" alt="">
+                             <div class="con-d-p">
+                                       <div class="con-d-p1">Mừng khai trương chi nhánh mới</div>
+                                       <div class="con-d-p2">Sale off up</div>
+                                       <div class="con-d-p2">to 70%</div>
+                                      <div class="con-d-p3"><div class="con-b4-p"><a href="">Xem thêm sản phẩm</a> </div ><div><a href=""><i class="fas fa-arrow-right"></i></a></div></div>
+                             </div>
+                     </div>
+                     <div class="con-d1">
+                             <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/nguoi-mau-03.png" alt="">
+                             <div class="con-d1-p">
+                                       <div class="con-d1-dress"><i class="fas fa-tshirt"></i></div>
+                                       <div class="con-d1-p1">Danh sách <br> sản phẩm</div>
+                                       <div class="con-c-right"><i class="fas fa-arrow-right"></i></div>
+                             </div>
+                     </div>
+
+             </div>
+             <div class="content-e">
+                      <div class="con-e1">
+                               <div class="con-e1-p">Khách hàng nói gì về chúng tôi</div>
+                               <div class="con-e1-img"><img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/nguoi-mau-01-150x150.png" alt=""></div>
+                               <div class="con-e1-p1">The overall use of flatsome is very VERY useful. It lacks very few, if any, things! I loved it and have <br> created my first ever website Punsteronline.com! Best yet, flatsome gets free updates that are great! <br> (and the support is amazing as well!:)</div>
+                               <div class="con-e1-p2"><strong>Mark Jance</strong>/Facebook</div>
+                      </div>
+                      <div class="con-e2">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-01.jpg" alt="shop">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-02.jpg" alt="shop">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-03.jpg" alt="shop">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-04.jpg" alt="shop">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-05.jpg" alt="shop">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-06.jpg" alt="shop">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-07.jpg" alt="shop">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-08.jpg" alt="shop">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-09.jpg" alt="shop">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/gallery-10.jpg" alt="shop">
+                      </div>
+                      <div class="con-e3">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/logo-brian-orlando-six.png" alt="logo">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/logo-clark-downey.png" alt="logo">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/logo-frk-island.png" alt="logo">
+                               <img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/logo-gilbert-stephany.png" alt="logo">
+                      </div>
+             </div>
+             <div class="content-f">
+                      <div class="con-f1">
+                               <div class="con-f1-img"><img src="http://mauweb.monamedia.net/pleatskora/wp-content/uploads/2019/04/logo-pleats-kora-white-02.png" alt=""></div>
+                               <div class="con-f1-p">© 2017 Minera. All Rights Reserved.  Designed by Mona Media</div>
+                               <div class="con-f1-icon">
+                                       <i class="fab fa-facebook-f"></i>
+                                       <i class="fab fa-instagram"></i>
+                                       <i class="fab fa-twitter"></i>
+                               </div>
+                      </div>
+                      <div class="con-f2">
+                               <div class="con-f2-p"><a href="">Giới thiệu</a></div>
+                               <div class="con-f2-p"><a href="">Tin tức & Sự kiện</a></div>
+                               <div class="con-f2-p"><a href=""> Store</a></div>
+                               <div class="con-f2-p"><a href=""> Liên hệ</a></div>
+                      </div>
+                      <div class="con-f2">
+                               <div class="con-f2-p"><a href="">Tài khoản</a></div>
+                               <div class="con-f2-p"><a href="">Giỏ hàng</a></div>
+                               <div class="con-f2-p"><a href="">Thanh toán</a></div>
+                               <div class="con-f2-p"><a href="">Kiểm tra đơn hàng</a></div>
+                      </div>
+                      <div class="con-f3">
+                               <div class="con-f3-p">GET 20% OFF COUPON</div>
+                               <div class="con-f3-p1">They are big, bold and beautiful. Billboards have been around for quite a <br> while. In almost all places</div>
+                               <div class="con-f3-p2">
+                                       <input type="text" class="input-a" placeholder="email...">
+                                       <input type="submit" class="input-b"  value="Đăng Ký">
+                              </div>
+                      </div>
+             </div>
+            
+    </div>
+    
+    
+</body>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+    
+</html>
